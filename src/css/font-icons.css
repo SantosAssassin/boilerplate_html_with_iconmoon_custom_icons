@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?x17jdw');
+  src:  url('../fonts/icomoon.eot?x17jdw#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?x17jdw') format('truetype'),
+    url('../fonts/icomoon.woff?x17jdw') format('woff'),
+    url('../fonts/icomoon.svg?x17jdw#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change ../fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Add-Customer:before {
+  content: "\e900";
+}
+.icon-Claim-Point:before {
+  content: "\e901";
+}
+.icon-dashboard:before {
+  content: "\e902";
+}
+.icon-My-Business:before {
+  content: "\e903";
+}
+.icon-New-Orders:before {
+  content: "\e904";
+}
+.icon-Sales-Increase-Rate:before {
+  content: "\e905";
+}
+.icon-Send-Message:before {
+  content: "\e906";
+}
+.icon-Unique-Visitors:before {
+  content: "\e907";
+}
+.icon-User-Registrations:before {
+  content: "\e908";
+}
